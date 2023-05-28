@@ -1,0 +1,7 @@
+So this is a kaggle dataset for rubrik cube having different country design on it . The photo set had images of 5 countries and the photos were diversified with angles and lighting being differnet in it . Each of the country have 50 images . It is a multiclass classification.
+
+So i deceided to combine them into a single folder and spilt the images in the ratio of 30 : 70 where 30 is for test and 70 is for train .
+
+Then after splkitting the data , the next step is for model selection . Since we have the label with us , we need to go withs supervised learning model . Here tough there are many models , Convolution neural network works the best for image processing .
+
+The reason for choosing CNN over other ml methods is very simple . CNN has a Convolution layer that performs a mathematical operation on small region of the input images and extract features such as edges , corners etc . Cnn has the property of parameter sharing where same weights of parameter are 
